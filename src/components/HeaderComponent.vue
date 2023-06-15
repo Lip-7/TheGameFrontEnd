@@ -1,7 +1,7 @@
 <template>
     <header>
         <nav class="h-100 w-100 navbar navbar-expand-lg" data-bs-theme="dark">
-            <div class="w-100 h-100 container-fluid d-flex justify-content-between">
+            <div class="w-100 h-100 d-flex justify-content-between align-items-center">
                 <div class="navbar-brand box-logo py-1">
                     <img src="/img/logo.png" alt="">
                 </div>
