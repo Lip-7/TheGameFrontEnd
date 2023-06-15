@@ -9,7 +9,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <ul class="navbar-nav d-flex justify-content-between align-items-center">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
@@ -60,9 +60,6 @@ header {
     color: #F5E6C9;
     font-weight: 600;
     font-family: 'Play', sans-serif;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 
     .box-logo {
         width: 120px;
@@ -73,9 +70,6 @@ header {
         }
     }
     ul{
-        display: flex;
-        justify-content: center;
-        align-items: center;
         gap: 5rem;
         li {
             a {
